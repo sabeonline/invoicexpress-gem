@@ -11,7 +11,6 @@ module Invoicexpress
       klass = options.delete(:klass)
 
       options = {
-        :raw => false,
         :ssl => { :verify => false }
       }.merge(options)
 
